@@ -197,11 +197,11 @@ if has('gui_running')
     function! s:set_gui_font()
         if has('gui_gtk2')
             if getfontname( 'DejaVu Sans Mono for Powerline' ) != ''
-                set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 12
+                set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
             elseif getfontname( 'DejaVu Sans Mono' ) != ''
-                set guifont=DejaVu\ Sans\ Mono\ 12
+                set guifont=DejaVu\ Sans\ Mono\ 10
             else
-                set guifont=Luxi\ Mono\ 12
+                set guifont=Luxi\ Mono\ 10
             endif
         elseif has('x11')
             " Also for GTK 1
